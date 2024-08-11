@@ -13,9 +13,9 @@ git clone https://github.com/ramgokul/PactContractTestingPOC.git
 cd PactContractTestingPOC
 
 2. Set up a virtual environment and install dependencies:
-python3 -m venv venv
-source venv/bin/activate  
-pip install -r requirements.txt
+- python3 -m venv venv
+- source venv/bin/activate  
+- pip install -r requirements.txt
 
 # Example Flask API
 This project includes a simple Flask API (provider.py) that can be used as a mock provider for contract testing. The API simulates a user service with basic functionality to retrieve user information.
