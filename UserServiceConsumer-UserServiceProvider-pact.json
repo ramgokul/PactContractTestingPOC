@@ -1,0 +1,30 @@
+{
+  "consumer": {
+    "name": "UserServiceConsumer"
+  },
+  "provider": {
+    "name": "UserServiceProvider"
+  },
+  "interactions": [
+    {
+      "providerState": "the user \"pat\" exists",
+      "description": "a request for user with username \"pat\"",
+      "request": {
+        "method": "get",
+        "path": "/users/pat"
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "username": "pat",
+          "fullname": "Pat Dorsy"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}
